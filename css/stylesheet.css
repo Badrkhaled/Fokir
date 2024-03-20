@@ -1,0 +1,1041 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+}
+a{
+    color: inherit;
+}
+button{
+    font-family: 'Roboto', sans-serif;
+}
+p{
+    font-family: 'Roboto', sans-serif;
+}
+h1
+{
+    font-family: 'Roboto', sans-serif;
+}
+li{
+    font-family: 'Roboto', sans-serif;
+}
+h2,
+h3,
+h4,
+h5,
+h6{
+    font-family: 'Roboto', sans-serif;
+
+}
+
+/*==============================================> navbar style */
+.navbar {
+    background-color: rgb(0, 0, 0);
+    position: relative;
+    height: 50px;
+    margin-bottom: 10px;
+    margin: 0px;
+}
+
+.navbar h1 {
+    width: 100px;
+    height: 80px;
+    color: #ff305b;
+    position: absolute;
+    top: -20px;
+    left: 120px;
+
+
+}
+
+.navbar .list {
+    list-style-type: none;
+    display: flow-root;
+    color: black;
+    margin-left: 650px;
+    width: fit-content;
+}
+
+.navbar .list :hover {
+    color: #ff305b;
+}
+
+.navbar .list li {
+    float: left;
+    font-size: 15PX;
+    width: fit-content;
+    height: 20px;
+    padding-left: 50px;
+    color: black;
+    list-style-type: none;
+    color: azure;
+
+    font-size: 15px;
+
+}
+
+.navbar .list li a {
+    color: inherit;
+    text-decoration: none;
+}
+
+/*==============================================> body text */
+
+.body {
+    width: fit-content;
+    margin-top: 200px;
+    position: relative;
+}
+
+.centertext {
+    font-size: 20px;
+    width: 500px;
+    height: fit-content;
+    position: absolute;
+    top: 1px;
+    left: 500px;
+    text-align: center;
+
+}
+
+.centertext h2 {
+    font-size: 60px;
+    text-align: center;
+    font-weight: 1000;
+    color: #ff305b;
+}
+
+.centertext h3 {
+    margin-left: 10px;
+    text-align: center;
+    font-weight: 800;
+    margin-bottom: -30px;
+    color: #ffffff
+}
+
+.centertext h4 {
+    font-weight: 400;
+    font-size: 15;
+    margin-left: 0px;
+    margin-top: -40px;
+    color: #ffffff
+}
+
+/* body image */
+.part1 {
+    background-image: url("../images/hero\ img.jpg");
+    height: 100vh;
+    width: 1473px;
+    background-size: contain;
+    display: inline-block;
+    vertical-align: top;
+    margin: 0px;
+}
+
+.part1::before {
+    background-color: rgba(0, 0, 0, 0.8);
+    content: "";
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+}
+
+/*==============================================> hello part */
+.container {
+    position: relative;
+    display: flow-root;
+    width: 800px;
+    height: 100vh;
+
+}
+
+.container .img {
+    float: left;
+    position: absolute;
+    left: 240px;
+    top: 120px;
+}
+
+.container .img {
+    z-index: auto;
+}
+
+.container .border {
+
+    position: absolute;
+    left: -25px;
+    top: -20px;
+    border: 10px rgb(73, 72, 72) solid;
+    width: 300px;
+    height: 400px;
+}
+
+.container .imgtext {
+    width: 700px;
+    position: absolute;
+    left: 700px;
+    top: 40px;
+
+}
+
+.container .imgtext .emplist {
+    list-style-type: none;
+    
+}
+
+.container .imgtext p {
+    width: 500px;
+    font-size: larger;
+    color: rgb(104, 102, 102);
+
+}
+
+.emplist {
+    width: 800px;
+    border-top: 3px rgb(214, 213, 213) dotted;
+    display: flow-root;
+    position: relative;
+    margin-left: -58px;
+}
+
+.emplist .left {
+    float: left;
+
+}
+
+.emplist .right {
+    float: right;
+    position: absolute;
+    right: 400px;
+    bottom: 1px;
+}
+
+.emplist span {
+    color: rgb(104, 102, 102);
+}
+
+.emplist span a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.imgtext h2 {
+    font-size: 40px;
+    font-weight: 700;
+    margin-top: 50px;
+}
+
+.imgtext {
+    position: absolute;
+    margin-left: -250px;
+    margin-top: -90px;
+}
+
+.imgtext p {
+    margin-left: -20px;
+    color: rgb(54, 52, 52);
+}
+
+.imgtext h2::before {
+    content: "";
+    width: 6px;
+    height: 30px;
+    border-radius: 2px;
+    left: -20px;
+    bottom: 397px;
+    position: absolute;
+    background-color: #ff305b;
+
+}
+
+/*==============================================> image part */
+.container .img .image {
+    position: absolute;
+
+}
+
+.container .imgpart .border {
+    width: 350px;
+    height: 450px;
+    border: 10px rgb(72, 70, 70) solid;
+    border-radius: 10px;
+    position: absolute;
+}
+
+.imgscreen {
+    background-color: rgba(9, 9, 9, 0.6);
+    width: 350px;
+    height: 0450px;
+    position: absolute;
+    bottom: 6px;
+    opacity: 0
+    
+
+}
+
+.socialimg li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px;
+    font-size: larger;
+    color: #ffffff;
+    position: relative;
+    left: 18%;
+    top: 200px;
+    
+}
+
+.socialimg li:hover {
+    color: #ff305b;
+}
+
+.imgscreen:hover {
+    transition: all 0.5s ease 0s;
+    opacity: 100%;
+    width: 360px;
+    height: 440px;
+}
+
+/* buttons */
+.buttons {
+    position: absolute;
+    left: -20px;
+}
+
+.buttons button {
+    display: inline-block;
+    background-color: #ff305b;
+    color: #ffffff;
+    font-size: 13px;
+    font-weight: 800;
+    padding: 10px;
+    border: 0;
+    width: 150px;
+    border-radius: 4px;
+}
+
+.buttons button:hover {
+    background-color: #f80233;
+}
+
+.hire {
+    margin-left: 15px;
+    position: absolute;
+    left: 100%;
+    bottom: 0px;
+}
+
+/*======================> cards */
+.services {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background-color: #f1f1f1;
+}
+
+.services h3 {
+    font-size: 40px;
+    position: absolute;
+    left: 43%;
+    top: 0px;
+}
+
+.services .ourservices::after{
+    content: " ";
+    border-bottom:2px solid #f80233;
+    width: 200px;
+    position: absolute;
+    left: 43.5%;
+    top: 15%;
+}
+.services .ourservices::before{
+    content: " ";
+    border-top:2px solid #f80233;
+    width: 100px;
+    position: absolute;
+    left: 46.4%;
+    top: 16%;
+}
+.services .ourservices h3::after{
+    content: " ";
+    border-top: 2px solid #f80233;
+    width: 100px;
+    position: absolute;
+    left: 22.5%;
+    top: 65px;
+}
+
+
+.cards {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    right: 100px
+
+}
+
+.cards .c {
+    width: 24%;
+    position: absolute;
+    top: 200px;
+    height: 250px;
+}
+
+.c .cardinner {
+    position: absolute;
+    left: 50%;
+    width: 320px;
+    height: 300px;
+}
+
+.c .stext {
+    width: fit-content;
+}
+
+.c i {
+    color: #f80233;
+    font-size: 30px;
+    position: absolute;
+    left: 50%;
+    bottom: 250px;
+}
+
+.c h4 {
+    font-size: 25px;
+    width: 100%;
+    position: relative;
+    left: 26%;
+    color: rgb(0, 0, 0);
+}
+
+.c .stext p {
+    font-size: 20px;
+    color: gray;
+    position: relative;
+    left: 15%;
+}
+
+.cardinner:hover i{
+    transform: scale(1.2);
+    transition: all 5ms ease;
+    transition-duration: 1s;
+    transition-timing-function:cubic-bezier(.17,.67,.83,.67);
+}
+
+.cardinner:hover {
+    background-color: white;
+    box-shadow: 2px 1px 5px rgb(71, 69, 69);
+    transition: all 500ms;
+
+}
+.card-2 .stext h4{
+    position: relative;
+    left: 50px;
+}
+.stext {
+    position: absolute;
+    top: 60px;
+}
+.c .card-2{
+    position: absolute;
+    left: 500px;
+}
+.c .card-3{
+    position:absolute;
+    left: 823px;
+}
+.c .card-4{
+    position: absolute;
+    left: 1146px;
+}
+.ourporfolio{
+    width: fit-content;
+    height: 100vh;
+    
+}
+.portfolio{
+    position: relative;
+}
+.portfolio h3{
+    position: absolute;
+    left: 50%;
+}
+.ourportfolio h3{
+    font-size:30px ;
+    position: absolute;
+    left:43% ;
+    top: 0px;
+}
+.ourportfolio .portfolio::after{
+    content:" " ;
+    border-bottom:2px solid #f80233 ;
+    width:200px ;
+    position: absolute;
+    left: 45%;
+    top: 70px;
+}
+.ourportfolio .portfolio::before{
+    content: " ";
+    border-top:2px solid #f80233;
+    width: 100px;
+    position: absolute;
+    left: 48%;
+    top: 78px;
+}
+.ourportfolio .portfolio h3::after{
+    content: " ";
+    border-top: 2px solid #f80233;
+    width: 100px;
+    position: absolute;
+    left: 29%;
+    top: 33px;
+}
+
+.portfoliotext{
+    position: absolute;
+    width: 100%;
+    
+}
+#all{
+    color: #f80233;
+}
+.portfoliotext ul{
+    display: flow-root;
+    position: absolute;
+    left: 33%;
+    bottom: -150px;
+}
+.ourportfolio .portfoliotext ul li {
+    list-style-type: none;
+    float: left;
+    padding: 20px;
+}
+.ourportfolio i{
+    color: #f80233;
+}
+.portfolioimg img{
+    width: 350px;
+    float: left;
+}
+.portfolioimg .raw1{
+    width: 100%;
+    padding-left:220px ;
+    padding-top: 100px;
+}
+.portfolioimg .raw1 img{
+    padding: 20px;
+}
+.portfolioimg .raw1 .img1 img{
+    padding-top:45px ;
+}
+.portfolioimg .raw1 .img2 img{
+    padding-top: 45px
+}
+.portfolioimg .raw1 .img3 img{
+    padding-top: 45px;
+}
+.portfolioimg .raw2{
+    width: 100%;
+    padding-left: 220px;
+    padding-top: 50px;
+}
+.portfolioimg .raw2 img{
+    padding: 20px;
+}
+.raw1{
+    position: relative;
+}
+/*  */
+/* overlayyyyyyyyyyyyyyyy */
+/*  */
+.img1 .overlay{
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 310px;
+    height: 230px;
+    position: absolute;
+    left: 16.3%;
+    top: 147%;
+}
+.img1 .overlay i{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.img2 .overlay{
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 310px;
+    height: 230px;
+    position: absolute;
+    left: 40%;
+    top: 147%;
+}
+.img2 .overlay i{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.img3 .overlay{
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 310px;
+    height: 230px;
+    position: absolute;
+    left: 63.8%;
+    top: 147%;
+}
+.img3 .overlay i{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.raw2{
+    position: relative;
+}
+.raw2 .img4 .overlay{
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 310px;
+    height: 230px;
+    position: absolute;
+    left: 16.3%;
+    top: 595%;
+}
+.raw2 .img4 .overlay i{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.raw2 .img5 .overlay{
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 310px;
+    height: 230px;
+    position: absolute;
+    left: 40%;
+    top: 595%;
+}
+.raw2 .img5 .overlay i{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.raw2 .img6 .overlay{
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 310px;
+    height: 230px;
+    position: absolute;
+    left: 63.8%;
+    top: 595%;
+}
+.raw2 .img6 .overlay i{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.portfolioimg .overlay{
+    opacity: 0;
+}
+.portfolioimg .overlay:hover{
+    opacity: 1;
+    transition: all 0.5s ease 0s ;
+}
+.ourportfolio{
+    height: 700px;
+}
+/*  */
+/* numbers section */
+/*  */
+.numbers{
+    width: 100%;
+    height: 250px;
+    position: absolute;
+    left: 0%;
+    background-color:#f1f1f1;
+}
+.numbers .numinner{
+    position: absolute;
+    left: 15%;
+}
+.numbers .num{
+    float: left;
+    padding: 40px;
+    font-size: 25px;
+    margin: 20px;
+}
+.num{
+    text-align: center;
+}
+.num .no{
+    margin-top: 10px;
+    color: rgb(95, 94, 94);
+}
+.num h5{
+    text-align: center;
+    color: rgb(85, 85, 85);
+}
+.num i{
+    color: #f80233;
+}
+/* *feedback */
+.feedback{
+    position: relative;
+    top: 300px;
+}
+.feedback .feedtext h3{
+    position: absolute;
+    left:45%;
+    font-size: 25px;
+    
+}
+.feedback .feedtext::after{
+    content:" " ;
+    border-bottom:2px solid #f80233 ;
+    width:200px ;
+    position: absolute;
+    left: 46.5%;
+    top: 60px; 
+}
+.feedback .feedtext::before{
+    content: " ";
+    border-top:2px solid #f80233;
+    width: 100px;
+    position: absolute;
+    left: 50%;
+    top: 65px; 
+}
+.feedback .feedtext h3::after{
+    content: " ";
+    border-top: 2px solid #f80233;
+    width: 100px;
+    position: absolute;
+    left: 32%;
+    top: 100%;
+}
+.feedback .rectangle {
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+}
+.rectangle .recinner{
+    width: 750px;
+    height: 250px;
+    background-color: #f1f1f1;
+    position: absolute;
+    top: 100px;
+    left: 27%;
+}
+.recinner .recimg{
+    float: left;
+    
+}
+.recinner .recimg img{
+    width: 100px;
+    border-radius: 100%;
+    position: absolute;
+    left: 65px;
+    top: 50px;
+    z-index: 90;
+}
+.recinner::after{
+    content: "";
+    border: 100px solid transparent;
+    border-top-color:#ff305b;
+    border-left-color:#ff305b;
+    position: absolute;
+    z-index: 1;
+}
+.recinner .rectext{
+    position: absolute;
+    left: 25%;
+}
+.rectext h5{
+    font-size: 20px;
+}
+.rectext .ii{
+    font-size: 10px;
+    color: rgb(91, 90, 90);
+}
+.rectext p{
+    color: rgb(91, 90, 90);
+}
+.rectext .recicons{
+    font-size: 13px;
+    color: gold;
+}
+/* ^our blog^ */
+.blog{
+    position:absolute;
+    top: 3900px;
+    width: 100%;
+    background-color: #f1f1f1;
+}
+.blog .blogtext h3{
+    font-size: 45px ;
+}
+.bloginner{
+    position: relative;
+    width: 100%;
+}
+.bc{
+    width: 20%;
+    padding: 30px;
+    position: absolute;
+    top: 200px;
+}
+.blog .blogcards{
+    width: 100%;
+    height: 100vh;
+}
+.bloginner img
+{
+    width: 350px;
+    height: fit-content;
+}
+.bloginner iframe{
+    width: 350px;
+    height: 200px;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.bloginner .bcard1{
+    float: left;
+    position: absolute;
+    left: 10%;
+    background-color: #ffffff;
+    height:500px;
+    width: 350px;
+}
+.bc img{
+    position: absolute;
+    right: 0px;
+    top: 0;
+}
+.bloginner .bcard2{
+    float: left;
+    position:absolute;
+    left: 37.5%;
+    background-color: #ffffff;
+    height:500px;
+    width: 350px;
+}
+.bloginner .bcard3{
+    float: left;
+    position: absolute;
+    left: 65%;
+    background-color: #ffffff;
+    height:500px;
+    width: 350px;
+}
+.bctext{
+    position: absolute;
+    top: 40%;
+} 
+.bc h5{
+    padding-top: 30px;
+}
+.bc h5:hover{
+    color: #f80233;
+    transition: all 200ms;
+}
+.bc h4{
+    font-size: 20px;
+
+}
+.bc h4:hover{
+    color: #f80233;
+    transition: all 200ms;
+}
+.blog .blogtext {
+   
+    
+    position: absolute;
+    left: 45%;
+}
+.blog .blogtext h3{
+    margin-right: 20px;
+}
+.blog .blogtext::after{
+    content:" " ;
+    border-bottom:2px solid #f80233 ;
+    width:200px ;
+    position: absolute;
+    right: 10px;
+    top: 120px; 
+
+}
+.blog .blogtext::before{
+    content: " ";
+    border-top:2px solid #f80233;
+    width: 100px;
+    position: absolute;
+    left: 18%;
+    top: 128px;
+}
+.blog .blogtext h3::after{
+    content: " ";
+    border-top: 2px solid #f80233;
+    width: 100px;
+    position: absolute;
+    left: 18%;
+    top: 78%;
+}
+/* *contact */
+.contact{
+    width: 100%;
+    height: fit-content;
+    position: absolute;
+    top: 4800px;
+}
+.contact .form{
+    
+    position: absolute;
+    left: 25%;
+}
+
+ .subject{
+    width: 700px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding:10px;
+    border: 0.5px solid rgb(222, 221, 221);
+
+}
+
+ .name{
+    float: left;
+    width: 340px;
+    margin-right: 20px;
+    border: 0.5px solid rgb(222, 221, 221);
+
+    padding:10px
+}
+.email{
+    width: 340px;
+    padding:10px;
+    border: 0.5px solid rgb(222, 221, 221);
+
+}
+textarea{
+    width: 700px;
+    padding:10px
+
+}
+
+textarea{
+    border: 0.5px solid rgb(222, 221, 221);
+}
+
+
+.form button{
+    background-color: #ff305b;
+    color: #ffffff;
+    border: 0;
+    font-weight: 600;
+    padding: 10px;
+    font-size: 10px;
+    position: absolute;
+    top: 110%;
+}
+.form button:hover{
+    background-color: #f80233;
+}
+
+.contact .contacttext h3{
+    position: absolute;
+    left: 45%;
+    top: -120px;
+    font-size: 30px;
+}
+.contact .contacttext::after{
+    content:" " ;
+    border-bottom:2px solid #f80233 ;
+    width:200px ;
+    position: absolute;
+    left: 43%;
+    top: -50px;
+}
+.contact .contacttext::before{
+    content:" " ;
+    border-bottom:2px solid #f80233 ;
+    width:100px ;
+    position: absolute;
+    left: 46%;
+    top: -55px;
+}
+.contact .contacttext h3::after{
+    content:" " ;
+    border-bottom:2px solid #f80233 ;
+    width:100px ;
+    position: absolute;
+    left: 14px;
+    top: 46px;
+}
+/* ! footer */
+footer{
+    position: absolute;
+    top: 5300px;
+    width: 100%;
+    height: 150px;
+    background-color: rgb(50, 49, 49);
+}
+.social{
+    position: relative;
+    
+}
+.sociallogo{
+    position: absolute;
+    left: 42%;
+    top:40px
+    
+}
+.sociallogo li{
+    list-style-type: none;
+    float: left;
+    padding-inline: 10px;
+    
+}
+
+.sociallogo a{
+    color: inherit;
+    color: #f1f1f1;
+}
+.sociallogo a:hover{
+    color: #f80233;
+}
+.social .copyright{
+    position: absolute;  
+    left: 40%;
+    color: #f1f1f1;
+    font-size: 18px; 
+    top: 90px;
+}
+.copyright h6{
+    margin-top: 0;
+
+}
+.copyright .theme{
+    color: #f80233;
+}
+
+/* .blog .blogtext::after{
+     
+
+}
+.blog .blogtext::before{
+    content: " ";
+    border-top:2px solid #f80233;
+    width: 100px;
+    position: absolute;
+    left: 25%;
+    top: 125px;
+}
+.blog .blogtext h3::after{
+    content: " ";
+    border-top: 2px solid #f80233;
+    width: 100px;
+    position: absolute;
+    left: 25%;
+    top: 82%;
+} */
